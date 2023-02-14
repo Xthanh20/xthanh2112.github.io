@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+body{
+    
+    position: relative;
+    width: 100%;
+    min-height: 150px;
+
+}
+nav{
+    background-image: url(/anh/logo1.png);
+    background-size: 250px;
+    position: fixed;
+    width: 300px;
+    height:900px;
+    background: #d17c7c;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    border: 1px solid #aeaeae ;
+    z-index: 1000;
+    transition: ease-in-out 0.5s;
+}
+nav img{
+  height: 250px;
+  width: 298px;
+  background-repeat: no-repeat;
+  align-self: start;
+  position: absolute;
+  
+}
+nav ul
+ {
+    width: 360px;
+    list-style: none;
+    overflow: hidden;
+  
+}
+
+nav ul li a{
+    
+    width: 300px;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 20px;
+    margin: 0 2px;
+    transition: linear 0.5s;
+}
+nav ul li a ion-icon{
+    margin:0 20px ;
+    color: aliceblue;
+    font-size: 15px;
+    transition: linear 0.5s;
+
+}
+nav ul li a:hover{
+    background: #aeaeae;
+    color: aliceblue;
+}
+
+nav li ul {
+  display: none;
+  width: 360px;
+  list-style: none;
+  overflow: hidden;
+position: relative;
+}
+nav li> ul li a{
+  border: none;
+  border-bottom: 1px solid #a14e4e;
+  width: 300px;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    padding: 20px;
+    margin: 0 2px;
+    transition: linear 0.5s;
+}
+nav li:hover >ul {
+  display: block;
+ 
+}
+nav  li:hover  ul> a{
+  background: #3d3434;
+    color: rgb(219, 225, 231);
+}
+.search {
+
+  
+  height:  40px;
+  width: 750px;
+  display:inline-block;
+}
+
+.login-form{
+    width: 250%;
+    max-width: 600px;
+    margin: 0px auto;
+    background-color: #d17c7c;
+    padding: 15px;
+    border: 2px dotted #cccccc;
+    border-radius: 10px;
+    float:center;
+}
+h1{
+    color:  #f3f3f3;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.input-box{
+    margin-bottom: 20px;
+    float:center;
+}
+.input-box input{
+    padding:20px 45px;
+    width: 100%;
+    border: 1px solid  #d17c7c;
+    outline: none;
+}
+.btn-box{
+    text-align: right;
+    margin-top: 30px;
+}
+.btn-box button{
+    padding: 10px 25px;
+    border-radius: 2px;
+    background-color: #d17c7c;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
